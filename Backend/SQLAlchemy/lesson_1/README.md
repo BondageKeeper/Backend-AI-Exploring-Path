@@ -1,4 +1,4 @@
-# Lesson 3: Introduction to Async SQLAlchemy 2.0
+# Lesson 1: Introduction to Async SQLAlchemy 2.0
 
 ## Introduction
 In this lesson, I started learning SQLAlchemy 2.0, which is a powerful ORM (Object-Relational Mapping) library for Python. It allows developers to work with databases using standard Python classes and objects instead of writing raw SQL queries manually. For Backend and AI development, this is very important because it helps to easily save user profiles, AI prompts, and response history directly from Python code. In this project, I configured it to work asynchronously with a PostgreSQL database.
