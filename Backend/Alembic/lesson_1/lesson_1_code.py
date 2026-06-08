@@ -76,7 +76,7 @@ class AIOptions(SQLAlchemyBasement):
     user_id: Mapped[int] = mapped_column(ForeignKey('All_users.id',ondelete="CASCADE"))
     user_relation: Mapped['UsersTable'] = relationship(back_populates='ai_relation')
 
-DATABASE_URL = "postgresql+asyncpg://postgres:0631@127.0.0.1:5432/user_ai_options"
+DATABASE_URL = "postgresql+asyncpg://postgres:[WRITE HERE YOUR PASSPORT]@127.0.0.1:5432/user_ai_options"
 engine = create_async_engine(DATABASE_URL)
 session = async_sessionmaker(engine,expire_on_commit=False)
 from sqlalchemy.orm import selectinload
