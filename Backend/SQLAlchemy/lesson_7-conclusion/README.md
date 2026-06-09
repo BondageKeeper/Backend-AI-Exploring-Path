@@ -1,4 +1,4 @@
-# 🚀 Advanced B2B AI Infrastructure Monitoring Pipeline
+# 🚀 Advanced Monitoring Pipeline
 
 ## 📝 Introduction
 This little project training code is important. Over the last two weeks, I mastered four core pillars of modern Python backend development: **Pydantic**, **SQLAlchemy 2.0 (Async ORM)**, **PostgreSQL**, and **Alembic**. 
