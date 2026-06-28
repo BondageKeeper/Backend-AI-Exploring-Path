@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PC Bang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-violet-700 text-white p-0 m-0 h-screen">
+<div>
+    <header class="flex justify-between items-center bg-orange-400 w-full px-8 py-6 shadow-lg">
+        <div class="flex items-center">
+        <img src="mini_logo.png" alt="logo">
+        <h1 class="text-zinc-800 text-5xl font-bold ml-4">PC Bang</h1>
+        </div>
+        <div>
+            <a href="tel:+79993335566" class="text-zinc-800 text-4xl font-bold mr-2">Our Contacts: +7 (999) 333-55-66</a>
+        </div>
+    </header>
+    <main class="p-4">
+        <section>
+            <h1 class="flex justify-center text-orange-400 mt-6 text-8xl font-semibold">Welcome!</h1>
+            <p class="text-xl text-orange-400 mt-3">About us: We have been working for 3 years and lots of the customers like playing computers in our club.</p>
+            <div>
+                <label class="text-orange-400 mt-2">Here is our location:</label>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2309.1722716445374!2d39.6503295766949!3d54.636184572691405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4149e39ad7728e67%3A0x400bdecbfb5199e3!2z0KLRjNC80LA!5e0!3m2!1sru!2sru!4v1782646005444!5m2!1sru!2sru" width="99%" height="300" class="rounded-2xl border border-orange-400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <h2 class="flex text-orange-400 mt-6 text-5xl">Here are all computers we have:</h2>
+            <div class="justify-center text-2xl space-y-2 mt-2 text-orange-400 semibold">
+                <div>🎮 Aspire3 <span class="text-zinc-800 font-bold">AMD Radeon Graphics</span></div>
+                <div>🎮 Aspire15 <span class="text-zinc-800 font-bold">AMD Radeon Graphics</span></div>
+                <div>🎮 MSI-Katana-01 <span class="text-zinc-800 font-bold">RTX 4050</span></div>
+                <div>🎮 MSI-Katana-02 <span class="text-zinc-800 font-bold">RTX 4060</span></div>
+                <div>🎮 ASUS-ROG-VIP1 <span class="text-zinc-800 font-bold">RTX 4070 Ti</span></div>
+                <div>🎮 ASUS-ROG-VIP2 <span class="text-zinc-800 font-bold">RTX 4080 Super</span></div>
+                <div>🎮 HyperPC-Ultra <span class="text-zinc-800 font-bold">RTX 4080 Super</span></div>
+                <div>🎮 Lenovo-Legion-01 <span class="text-zinc-800 font-bold">RTX 4070</span></div>
+                <div>🎮 Lenovo-Legion-02 <span class="text-zinc-800 font-bold">RTX 4080</span></div>
+                <div>🎮 Custom-Streamer-Box <span class="text-zinc-800 font-bold">RTX 4090</span></div>
+            </div>
+        </section>
+        <section>
+            <h2 class="flex justify-center items-center text-orange-400 mt-6 text-6xl font-semibold">Fill out your data:</h2>
+                <div class="flex mt-6">
+                    <label class="text-orange-400 text-3xl mr-3">Nickname:</label>
+                    <input type="text" placeholder="Enter your name" class="bg-violet-700 text-zinc-800 text-3xl rounded-xl focus:outline-none focus:border-fuchsia-500 border border-transparent">
+                    <label class="text-orange-400 text-3xl mr-3">Email:</label>
+                    <input type="text" placeholder="Enter your email" class="bg-violet-700 text-zinc-800 text-3xl rounded-xl focus:outline-none focus:border-fuchsia-500 border border-transparent">
+                    <label class="text-orange-400 text-3xl mr-3">Phone number:</label>
+                    <input type="text" placeholder="Enter your number" class="bg-violet-700 text-zinc-800 text-3xl rounded-xl focus:outline-none focus:border-fuchsia-500 border border-transparent">
+                </div>
+            <h2 class="flex justify-center items-center text-orange-400 mt-6 text-6xl font-semibold">Fill out booking data:</h2>
+                <div class="flex gap-x-10 mt-6">
+                    <div>
+                    <label class="text-orange-400 text-3xl mr-3">Choose your computer:</label>
+                    <select name="computer_id" class="bg-violet-600 text-zinc-800 opacity-50 p-3 rounded-xl text-xl focus:outline-none focus:border-fuchsia-500 border border-transparent cursor-pointer">
+                        <option value="1">Aspire 3</option>
+                        <option value="2">Aspire 15</option>
+                        <option value="3">MSI-Katana-01</option>
+                        <option value="4">MSI-Katana-02</option>
+                        <option value="5">ASUS-ROG-VIP1</option>
+                        <option value="6">ASUS-ROG-VIP2</option>
+                        <option value="7">HyperPC-Ultra</option>
+                        <option value="8">Lenovo-Legion-01</option>
+                        <option value="9">Lenovo-Legion-02</option>
+                        <option value="10">Custom-Streamer-Box</option>
+                    </select>
+                    </div>
+                    <div>
+                        <label class="text-orange-400 text-3xl mr-3 ">Hours:</label>
+                        <input type="number" value="1" min="1" max="24" class="bg-violet-700 text-zinc-800 opacity-50 text-3xl rounded-xl focus:outline-none focus:border-fuchsia-500 border border-transparent p-2 text-center">
+                    </div>
+                    <div>
+                    <label class="text-orange-400 text-3xl mr-3">Additional_services?</label>
+                    <select name="additional_services" class="bg-violet-600 text-zinc-800 opacity-50 p-3 rounded-xl text-xl focus:outline-none focus:border-fuchsia-500 border border-transparent cursor-pointer">
+                        <option value=True>Yes</option>
+                        <option value=False>No</option>
+                    </select>
+                    </div>
+                </div>
+            <div class="flex gap-x-10 mt-6">
+                <label class="text-orange-400 text-3xl mr-3">Arrival time:</label>
+                <input type="time" class="bg-violet-700 text-zinc-800 opacity-50 text-3xl rounded-xl focus:outline-none focus:border-fuchsia-500 border border-transparent">
+                <p class="text-orange-400 text-3xl">(Make sure that you won't be late because this is your starting time!)</p>
+                <button class="px-14 py-2 bg-violet-600 text-zinc-800 font-bold rounded-xl cursor-pointer hover:bg-orange-400 active:scale-95">Book</button>
+            </div>
+        </section>
+    </main>
+    <footer class="flex justify-between text-zinc-800 items-center px-8 py-6 w-full bg-orange-400 shadow-lg">
+        <p><small>All copyrights are unique and cannot be violated</small></p>
+        <p><small>approved in 2026 year</small></p>
+    </footer>
+</div>
+</body>
