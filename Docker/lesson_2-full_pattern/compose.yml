@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+   db_postgres:
+     image: postgres:15-alpine
+     container_name: pcbang_db
+     environment:
+       POSTGRES_USER: postgres
+       POSTGRES_PASSWORD: '0631'
+       POSTGRES_DB: pcbang_database
+     ports:
+       - "5433:5432"
+   web_app:
+     build: .
+     container_name: pcbang_backend
+     ports:
+       - "8080:8080"
+     depends_on:
+       - db_postgres
