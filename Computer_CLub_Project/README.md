@@ -86,4 +86,4 @@ Use the following commands to control the application deployment:
   ```
 
 ## 🎯 Conclusion:
-That was complicated of course because I used Artificial Intellegence and some tasks to improve my Backend and Frontend skills and I have done it through suffering and pain.
+This project was quite complex to build from scratch without a mentor, pushing me to rely heavily on documentation, community forums, and AI assistance. While overcoming deployment and validation hurdles felt intense at times, the final result was worth every struggle. It successfully proved my ability to build, debug, and ship production-ready applications autonomously.
