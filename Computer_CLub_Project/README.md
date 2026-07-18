@@ -6,7 +6,7 @@ and what the container simply means. Futhermore I improved my Backend-skills sig
 I had a bunch of troubles but over time I resolved them and now can avoid some stupid mistakes - this experience is definitely priceless.
 
 ## 📷How the it looks:
-![Simulation Intro]()
+<img width="1918" height="978" alt="first_site_cover" src="https://github.com/user-attachments/assets/f548971a-9247-4740-802e-e8267ce69f6e" />
 
 ## 🛠️ Used tools(crucial libraries):
 * **SQLAlchemy** - The most important tool to create tables , to make relationships between tables via ORM and to store users data. 
