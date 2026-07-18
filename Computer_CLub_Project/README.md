@@ -9,6 +9,12 @@ I had a bunch of troubles but over time I resolved them and now can avoid some s
 <img width="1918" height="978" alt="first_site_cover" src="https://github.com/user-attachments/assets/f548971a-9247-4740-802e-e8267ce69f6e" />
 <img width="1918" height="900" alt="second_site_cover" src="https://github.com/user-attachments/assets/d0e02207-477c-4d8b-bd1f-3c068bf7caf3" />
 
+## 📷Domain search:
+<img width="1918" height="722" alt="search_proof" src="https://github.com/user-attachments/assets/c28f3ea2-2883-426c-baab-02bb2ad2caec" />
+
+## 📷Fields writing:
+<img width="1918" height="912" alt="field_proof" src="https://github.com/user-attachments/assets/ec891090-02e3-4956-9932-51bfee94a812" />
+
 ## 🛠️ Used tools(crucial libraries):
 * **SQLAlchemy** - The most important tool to create tables , to make relationships between tables via ORM and to store users data. 
 * **FastAPI** - The API structured user input over HTTP POST, validates the payload, and returns a JSON response with status and details.
